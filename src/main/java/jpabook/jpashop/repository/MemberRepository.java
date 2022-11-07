@@ -3,6 +3,7 @@ package jpabook.jpashop.repository;
 import jdk.dynalink.linker.LinkerServices;
 import jpabook.jpashop.domain.Member;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
